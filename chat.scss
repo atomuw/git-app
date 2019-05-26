@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.setting {
+  background-color: #253141;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-between;
+  width: 300px;
+  font-weight: bold;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.message {
+  height: calc(100vh - 100px);
+  background-color: #2f3e51;
+  padding: 20px 20px 0;
+  overflow: scroll;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  width: 300px;
+}
+
+.edit-content {
+  height: 100px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px #eee;
+}
+
+.send-content {
+  height: calc(100vh - 900px);
+  padding: 46px 40px;
+  background-color: #fafafa;
+  overflow: scroll;
+}
+
+.form {
+  height: 90px;
+  padding: 20px 40px;
+  background-color: #ddd;
+  position: fixed;
+  margin: 0;
+}

@@ -1,0 +1,22 @@
+!!!
+%head
+  %meta(charset="UTF-8")
+  %title お試し
+%link{:href => "chat.css", :rel => "stylesheet"}/
+%body
+  %div(class="flash-box")
+  %(class="wrapper")
+    %(class="chat-side")
+      %(class="setting")
+        %h2.heading Ayumu
+      %(class="message")
+        %h3.message message
+  %(class="chat-main")
+    %(class="edit-content")
+      %button{:type => "name", :value => "ボタン"} edit
+      %h4.edit-content 年・日にち・日付
+    %(class="send-content")
+      %input{:type => "type a form", :value => "type a message"}/
+      %button{:type => "name", :value => "ボタン"} send
+
+

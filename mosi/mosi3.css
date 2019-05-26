@@ -1,0 +1,56 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+
+/* ここからCSSを記述してください */
+body {
+}
+.header {
+  background-color: #0C316A;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 18px 40px 0px 60px;
+}
+
+.header-list {
+  float: left;
+  padding: 33px 20px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.header-exit {
+font-size: 26px;
+padding: 25px 40px 0px 25px;
+float: right;
+}
+
+.contents {
+  background-color: #CD5949;
+  height: 200px;
+
+}
+
+.contents h1 {
+  background-color: #CD5949;
+  height: 200px;
+  color: #fff;
+  text-align: center;
+  line-height: 200px;
+}
