@@ -1,0 +1,180 @@
+li {
+  list-style: none;
+  font-style:normal;
+}
+
+.header {
+  background-color: #222222;
+  color: white;
+  height: 80px;
+}
+
+
+.header-list{
+    width: 100%;
+}
+
+.header-list li {
+  float: left;
+  padding: 25px 45px;
+  font-size:18px;
+  text-align: center;
+  float:center;
+  font-family:'Tahoma';
+
+}
+
+.header-list li:hover{
+  color:#FF773E;
+}
+
+input {
+  width: 200px;
+  margin:30px;
+  padding-right: 10px;
+}
+
+button{
+  opacity:0.8;
+  display       : inline-block;
+  border-radius : 10%;          /* 角丸       */
+  font-size     : 14px;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 12px;   /* 余白       */
+  background    : #ba5555;     /* 背景色     */
+  color         : #fff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  border        : 1px solid #999999;    /* 枠の指定 */
+}
+
+.category li{
+  font-size:18px;
+  padding-top:17px;
+  border-bottom:1px dotted #999999;
+  width:200px;
+}
+
+.category h1{
+  font-size:20px;
+  border-bottom:3px dashed #999999;
+  width:200px;
+  padding-top:20px;
+  padding-bottom:18px;
+}
+
+.category{
+  float:left;
+}
+
+.contents img{
+  height:500px;
+  width:450px;
+  margin:30px 0 25px 60px;
+  float:left;
+}
+
+.insta{
+  height:150px;
+  width:400px;
+  position:relative;
+}
+
+.contents h1{
+  position:absolute;
+  bottom:230px;
+  left:550px;
+  color:#CC00CC;
+  font-size:28px;
+}
+
+.contents p {
+    height:  110px;             /* 高さ指定 */
+    width:  400px;              /* 幅指定 */
+    background-color: #2196F3;  /* 背景色指定 */
+    position: relative;         /* 位置指定 */
+    animation: anime 2s 0s infinite alternate;  /* アニメーション指定 */
+    position:absolute;
+    bottom:460px;
+    right:500px;
+    font-family: 'Kaiti SC',sans-serif;
+    font-size:75px;
+    font-weight:bold;
+    z-index: 2;
+    text-align:center;
+}
+
+@keyframes anime {
+    0% {
+        background-color:#00BFFF;         /* 背景色指定 */
+        left: 280px;
+    }
+    100% {
+        background-color: #FF0;      /* 背景色指定 */
+        left: 400px;
+    }
+}
+
+.niko{
+  float:left;
+  font-size:10px;
+  margin-left:80px;
+}
+
+.clip{
+  float:left;
+  font-size:10px;
+  margin-left:30px;
+}
+
+.green{
+  float:left;
+  font-size:10px;
+  margin-left:30px;
+  margin-right:30px;
+}
+
+.beauty{
+  font-size:10px;
+}
+
+.footer{
+  float:left;
+  margin:90px 0 0 90px;
+
+
+}
+
+
+.explain{
+  float:left;
+  margin:90px 110px 0 75px;
+}
+
+.solid{
+  border-right:1px solid #DCDCDC;
+  padding-right:60px;
+}
+
+.ex{
+  border-right:1px solid #DCDCDC;
+  padding-right:60px;
+}
+
+.form{
+  margin:90px 0 0 71%;
+  width:140px;
+  padding-top:100px;
+  font-size:22px;
+
+}
+
+
+
+
+
+
+
+
+
